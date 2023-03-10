@@ -1,0 +1,40 @@
+.main{
+    padding:20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    box-shadow: 5px 5px 7px 5px #949494;
+    border-radius: 30px;
+ }
+ .main h1{
+    font-size: 40px;
+    text-align:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+ }
+ input{
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #0000FF;
+ }
+ input[type=submit] {
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 100%;
+    background-color: #0000FF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+ }
+ .registerbtn {
+    background-color: #0000FF;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+ }
