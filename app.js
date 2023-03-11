@@ -47,8 +47,8 @@ app.post('/sign_up', async (req,res) => {
     const msg = {
         from: '"Ecoshop" <ecoshop@example.com>', // sender address
         to: `${email}`, // list of receivers
-        subject: "Sup", // Subject line
-        text: "Long time no see", // plain text body
+        subject: "Sign-up Confirmation", // Subject line
+        text: `This email is to tell you that an account has been created on ${email} for ecoshop website. Thank you`, // plain text body
     }
         // send mail with defined transport object
         const info = await transporter.sendMail(msg);
