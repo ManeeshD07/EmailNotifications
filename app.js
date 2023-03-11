@@ -68,6 +68,6 @@ app.get('/',function(req,res){
       'Access-control-Allow-Origin': '*'
    });
    return res.redirect('index.html');
-}).listen(50)
+}).listen(3000)
 
-console.log("server listening at port 50");
+console.log("server listening at port 3000");
